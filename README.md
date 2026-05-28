@@ -1,37 +1,87 @@
-# Finger-Draw
+<p align="center">
+  <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="300" alt="Python Logo">
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11+-blue.svg" alt="Python Version"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+  <a href="https://github.com/your-username/your-repo"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey.svg" alt="Platform"></a>
+</p>
+
+---
+
+## 🖐️ Finger Draw
+
 An AI-powered air drawing app — draw in the air using just your hand and a webcam.
-✨ Features
 
-👆 Index finger — draw freely on screen
+---
 
-👍 Thumb — erase drawings
+## 📋 Requirements
 
-🤏 Two hands pinch — zoom in / zoom out
+- Python **3.11+**
+- Webcam
+- `opencv-python`
+- `mediapipe`
+- `numpy`
 
-✊ Fist → open hand — switch marker color
+---
 
-📐 Smart line — automatically straightens lines
+## 🚀 Installation
 
-⭕ Smart circle — automatically completes circle shapes
+### 1. Clone the repository
 
-😶 Face blur — detects and blurs faces in real time
+```bash
+git clone https://github.com/your-username/finger-draw.git
+cd finger-draw
+```
 
+### 2. Create virtual environment (recommended)
 
-🎨 Colors
+```bash
+python -m venv venv
 
-🔴 Red · 🟢 Green · 🟡 Yellow · 🔵 Blue
+# Windows
+venv\Scripts\activate
 
-🛠️ Installation
+# Linux / Mac
+source venv/bin/activate
+```
 
-bashpip install opencv-python mediapipe numpy
+### 3. Install dependencies
+
+```bash
+pip install opencv-python mediapipe==0.10.14 numpy
+```
+
+### 4. Run the app
+
+```bash
 python finger_draw.py
+```
 
-Python 3.11 and mediapipe==0.10.14 are recommended.
+---
 
-⌨️ Controls
-KeyActionCClear canvasQ / EscQuit
-📦 Requirements
+## ⌨️ Controls
 
-Python 3.11+
-Webcam
-opencv-python, mediapipe, numpy
+| Key | Action |
+|-----|--------|
+| `C` | Clear canvas |
+| `Q` / `Esc` | Quit |
+
+---
+
+## ✨ Features
+
+- 👆 Index finger — draw
+- 👍 Thumb — erase
+- 🤏 Two hands pinch — zoom in / out
+- ✊ Fist → open hand — switch color
+- 📐 Auto straight line detection
+- ⭕ Auto circle detection
+- 😶 Real-time face blur
+
+---
+
+## 📄 License
+
+MIT License
