@@ -3,16 +3,26 @@ An AI-powered air drawing app — draw in the air using just your hand and a web
 ✨ Features
 
 👆 Index finger — draw freely on screen
+
 👍 Thumb — erase drawings
+
 🤏 Two hands pinch — zoom in / zoom out
+
 ✊ Fist → open hand — switch marker color
+
 📐 Smart line — automatically straightens lines
+
 ⭕ Smart circle — automatically completes circle shapes
+
 😶 Face blur — detects and blurs faces in real time
 
+
 🎨 Colors
+
 🔴 Red · 🟢 Green · 🟡 Yellow · 🔵 Blue
+
 🛠️ Installation
+
 bashpip install opencv-python mediapipe numpy
 python finger_draw.py
 
